@@ -1,0 +1,40 @@
+
+/* Basic reset and styling for the body to ensure a clean and modern look */
+body {
+    font-family: sans-serif;
+    background-color: #f4f4f4; 
+    margin: 0;
+    padding: 20px;
+    text-align: center; 
+}
+/* Styles the header with a dark background and white text for contrast */
+nav ol {
+    background: #333;
+    padding: 10px;
+    list-style: none; 
+}
+/* Styles the navigation list items to be inline and adds some spacing between them */
+nav li {
+    display: inline; 
+    margin: 0 15px;
+}
+/* Styles the navigation links to be white and bold for better visibility against the dark background */
+nav a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+/* Adds a white background and some padding to the main content area for better readability */
+main {
+    background: white;
+    max-width: 700px;
+    margin: 20px auto;
+    padding: 20px;
+    border: 1px solid #ddd;
+}
+
+/* Ensures images scale properly on smaller screens */
+img {
+    max-width: 100%; /* Prevents images from overflowing */
+    height: auto;
+}
