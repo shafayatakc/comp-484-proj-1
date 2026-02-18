@@ -1,2 +1,1 @@
-# comp-484-proj-1
-uncharted series site
+https://shafayatakc.github.io/comp-484-proj-1/
