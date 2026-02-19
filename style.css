@@ -9,7 +9,7 @@ body {
 }
 /* Styles the header with a dark background and white text for contrast */
 nav ol {
-    background: #333;
+    background: #d8b61e;
     padding: 10px;
     list-style: none; 
 }
@@ -37,4 +37,15 @@ main {
 img {
     max-width: 100%; /* Prevents images from overflowing */
     height: auto;
+}
+fieldset {
+    border: 2px solid #333;
+    padding: 15px;
+    margin-top: 20px;
+    text-align: left; /* Aligns the labels for easier reading */
+}
+
+legend {
+    font-weight: bold;
+    padding: 0 10px;
 }
